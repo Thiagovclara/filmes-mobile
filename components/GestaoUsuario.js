@@ -6,7 +6,7 @@ export default function GestaoUsuario() {
   const [email, setEmail] = useState('maria@email.com');
 
   const salvar = () => {
-    Alert.alert('Salvo com sucesso!', Nome: ${nome}\nEmail: ${email});
+    Alert.alert('Salvo com sucesso!', `Nome: ${nome}\nEmail: ${email}`);
   };
 
   return (
